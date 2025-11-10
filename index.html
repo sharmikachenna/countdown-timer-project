@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Countdown Timer</title>
+
+  <!-- Linking the external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Dark overlay to make text more readable over background image -->
+  <div class="overlay"></div>
+
+  <!-- Main container for the countdown timer -->
+  <div class="container">
+    <h1>Countdown Timer</h1>
+
+    <!-- Input section: lets user select date, time, and AM/PM -->
+    <div class="input-group">
+      <label for="datetime">Select Target Date & Time:</label>
+      <div class="datetime-wrapper">
+        <input type="datetime-local" id="datetime" />
+      </div>
+    </div>
+
+    <!-- Countdown display section -->
+    <div id="countdown">
+      <div class="time-block">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="time-block">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="time-block">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="time-block">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+
+    <!-- Buttons for controlling the timer -->
+    <div class="button-group">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- Message area that shows "Time’s up!" when the countdown ends -->
+    <div id="message"></div>
+
+    <!-- Hidden audio element for playing alarm sound when time ends -->
+    <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+  </div>
+
+  <!-- Linking the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

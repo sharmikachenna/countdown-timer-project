@@ -57,3 +57,9 @@ Check out the live Countdown timer here:
 This Countdown Timer project demonstrates real-time **date-time calculations**, interactive **UI controls**, and **dynamic visual/audio feedback**.  
 It’s a lightweight, user-friendly tool suitable for deadlines, events, or reminders.
 
+
+----
+# 👤 Author
+
+Sharmika Chenna
+

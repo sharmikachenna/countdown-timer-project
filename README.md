@@ -48,7 +48,7 @@ It allows users to select a future date and time, then counts down in **Days, Ho
 ## 🌐 Live Demo
 
 Check out the live Countdown timer here:  
-[🔗Countdown Timer](https://sharmikachenna.github.io/countdown-timer-project/)
+## 👉 [Countdown Timer](https://sharmikachenna.github.io/countdown-timer-project/)
 
 
 
